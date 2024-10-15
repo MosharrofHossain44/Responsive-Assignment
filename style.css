@@ -159,6 +159,8 @@ body{
 
 
 
+
+
 /*banner design end */
 
 /* Change Your Habits section design start */
@@ -183,7 +185,7 @@ body{
 
 .Habits-content p{
     line-height: 24px;
-    max-width: 475px;
+    /* max-width: 475px; */
 }
 
     /*imges design */
@@ -212,6 +214,43 @@ body{
 }
 /* Change Your Habits section design end */
 
+/*run section start */
+.Run-Section{
+ 
+    margin-top: 130px;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 18px;
+    background: rgb(34, 34, 34);
+
+}
+.Run-Section .text{
+    width: 443px;
+    padding: 40px 0px 40px 54px;
+}
+
+.Run-Section h1{
+    font-size: 48px;
+    font-weight: 900;
+    padding-bottom: 14px;
+}
+
+.Run-Section p{
+    line-height: 24px;
+    padding-bottom: 34px;
+}
+
+.Run-Section img{
+    width: 366px;
+    height: 312px;
+    border-radius: 18px;
+}
+
+.Run-Section .img{
+    padding-right: 32px;
+}
+/*run section end */
 
 
 
@@ -286,10 +325,21 @@ body{
     }
     .Habits-content p{
         font-size: 14px;
+        padding-left: 7px;
+        padding-right: 7px;
     }
     .Habits-content h1{
         font-size: 32px;
     }
     /*Habits section end */
+
+    /* Run section start */
+    .Run-Section{
+        flex-direction: column;
+        margin-bottom: 130px;
+    
+    } 
+    
+    /* Run section end */ 
 }
 /* Responsive section end */
