@@ -1,0 +1,226 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #000000;
+    color: white;
+}
+
+.main-container{
+    max-width: 1440px;
+    margin: 0 auto; 
+    background: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgb(42, 42, 51) 100%, rgba(0,0,0,1) 100%);
+}
+.main-section{
+    max-width: 1060px;
+    margin: 0 auto;
+
+}
+
+
+/*shared style */
+.flex{
+    display: flex;
+}
+
+.border{
+    border: 4px solid red;
+}
+
+.btn{
+    background-color: rgb(230, 83, 60);
+    padding: 8px 20px;
+    border-radius: 20px;
+    font-size: 18px;
+    font-weight: 600;
+    color: rgb(255, 255, 255);
+}
+.grid{
+    display: grid;
+}
+
+.p-tag{
+    font-size: 16px;
+    font-weight: 400;
+    color: rgba(255, 255, 255, 0.5); 
+}
+/*shared style end*/
+
+/*banner design start */
+    /*Menu bar */
+.banner-section{
+    height: 715px;
+
+
+  
+}
+.nav-bar{
+    justify-content: space-between;
+    align-items: center;
+    padding: 60px 0;
+}
+
+.menu-bar{
+    list-style: none;
+    gap: 47px;
+    align-items: center;
+
+}
+
+.nav-bar h1{
+    color:rgb(230, 83, 60);
+    font-size: 36px;
+    font-weight: 800;
+    
+}
+
+.nav-bar p{
+    font-size: 18px;
+    font-weight: 400;
+    color: rgb(255, 255, 255);
+}
+
+.Menu-icon{
+    color: white;
+    display: none;
+}
+
+    /*banner main content */
+.banner-container{
+    grid-template-columns: repeat(2,1fr);
+    /* max-height: 580px ; */
+    gap: 167px;
+    align-items: center;
+
+}
+
+.banner-container h1{
+    font-size: 78px;
+    font-weight: 900;
+    margin-bottom: 28px;
+
+}
+.banner-container p{
+    margin-bottom: 28px;
+}
+.btn-black-bg{
+    background-color: rgba(0, 0, 0, 0.774);
+    padding: 8px 20px;
+    border: 1px solid white;
+    border-radius: 20px;
+    font-size: 18px;
+    font-weight: 600;
+    color: rgb(255, 255, 255);
+    margin-left: 14px;
+}
+
+.banner-img{
+    position: relative;
+
+}
+.banner-img h1{
+    font-size: 40px;
+    font-weight: 900;
+    margin-bottom: 5px;
+
+}
+
+.banner-img .card{
+    position: absolute;
+    background-color: rgba(255, 255, 255, 0.116);
+    padding: 18px 24px 0 24px ;
+    border-radius: 8px;
+    margin-left: 240px;
+    margin-top: 110px;
+
+
+}
+.banner-img .card-2{
+    position: absolute;
+    background-color: rgba(255, 255, 255, 0.116);
+    padding: 18px 35px 0 24px ;
+    border-radius: 8px;
+    margin-left: -100px;
+    margin-top: 410px;
+    align-items: center;
+    gap: 8px;
+
+
+}
+
+.card-2 span{
+    font-size: 40px;
+    font-weight: 900;
+    color: rgb(230, 83, 60);
+    background-color: rgb(230, 83, 60);
+    border-radius: 100%;
+}
+
+
+
+/*banner design end */
+
+
+
+
+/* Responsive section start */
+@media screen and (max-width: 576px){
+    
+    
+    /*navbar responsive design start*/
+    .menu-bar{
+        display: none;
+    }
+
+    .Menu-icon{
+        display: block;
+    }
+
+    .nav-bar{
+        margin-left: 0px;
+        margin-right: 0px;
+        padding:50px 25px 50px 25px ;
+    }
+    /*navbar responsive design end*/
+
+    /*baner main content*/
+    .banner-container{
+        grid-template-columns: repeat(1,1fr);
+        /* max-height: 580px ;  */
+        gap: 48px;
+        padding: 20px;
+        
+    
+    }
+    .banner-container h1{
+        font-size: 60px;
+        margin-bottom: 20px;
+    
+    }
+    .banner-container p{
+        font-size: 12px;
+        margin-bottom: 20px;
+    }
+    .btn-black-bg{
+        margin-top: 8px;
+        margin-left: 4px;
+        display:block;
+    }
+    .banner-img h1{
+        font-size: 30px;
+        line-height: 0px;
+    }
+    .banner-img .card-2{
+        padding: 20px 20px 0 24px ;
+        margin-left: -40px;
+    }
+
+    .banner-img .card{
+        padding: 24px 15px 0px ;
+        margin-top: 140px;
+    
+    
+    }
+}
+/* Responsive section end */
