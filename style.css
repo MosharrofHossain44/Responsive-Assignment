@@ -161,6 +161,57 @@ body{
 
 /*banner design end */
 
+/* Change Your Habits section design start */
+
+    /* Title & sub-title */
+.Habits-section{
+    margin-top: 100px;
+}
+
+.Habits-section .Habits-content{
+    text-align: center;
+    margin-bottom: 60px;
+
+
+}
+
+.Habits-content h1{
+    font-size: 48px;
+    font-weight: 900;
+    margin-bottom: 15px;
+}
+
+.Habits-content p{
+    line-height: 24px;
+    max-width: 475px;
+}
+
+    /*imges design */
+.Habits-imgs{
+    grid-template-columns: repeat(4,1fr);
+}
+.Habits-imgs img{
+    border-radius: 50%;
+}
+.Habits-imgs .Habits-card{
+    max-width: 234px;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.card-content{
+    text-align: center;
+}
+.card-content h3{
+    font-size: 18px;
+    font-weight: 600;
+    padding-top: 30px;
+    padding-bottom: 6px;
+    
+}
+/* Change Your Habits section design end */
+
 
 
 
@@ -222,5 +273,23 @@ body{
     
     
     }
+
+    /*Habits section start */
+    .Habits-imgs{
+        grid-template-columns: repeat(1,1fr);
+        justify-items: center;
+        gap: 40px;
+    }
+    .Habits-section{
+        margin-top: 500px;
+        margin-bottom: 100px ;
+    }
+    .Habits-content p{
+        font-size: 14px;
+    }
+    .Habits-content h1{
+        font-size: 32px;
+    }
+    /*Habits section end */
 }
 /* Responsive section end */
