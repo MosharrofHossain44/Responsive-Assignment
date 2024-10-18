@@ -1,0 +1,344 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+@import url('https://fonts.cdnfonts.com/css/miama');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.font-miama {
+    font-family: 'Miama', sans-serif;
+}
+
+body {
+    font-family: "Inter", sans-serif;
+    background: rgba(0, 0, 0, 1);
+    color: #fff;
+}
+
+.border{
+    border: 4px solid greenyellow;
+}
+
+/* Nav bar */
+header{
+    background: linear-gradient(180deg, #3b3b3b 0%, rgba(119, 119, 119, 0) 100%);
+    margin-bottom: 100px;
+}
+.nav-bar{
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:55px 0 35px ;
+}
+.nav-bar i {
+    color: #fff;
+    display: none;
+    /* margin: auto 0; */
+}
+.logo {
+    font-size: 2.25rem;         /* 1rem = 16px */
+    font-weight: 800;
+    color: rgba(230, 83, 60, 1);
+    font-style: italic;
+}
+.nav-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 40px;
+    padding: 5px;
+}
+
+.nav-btn li a {
+    text-decoration: none;
+    color: #fff;
+    padding: 0 20px;
+}
+.nav-btn li:first-child {
+    background: rgba(230, 83, 60, 1);
+    border-radius: 40px;
+    padding: 6px 0;
+}
+
+/* Nav banner */
+.nav-banner{
+    width: 80%;
+    margin: 2rem auto 6.25rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.banner-text {
+    max-width: 600px;
+    margin-bottom: 24px;
+}
+.banner-text h1 {
+    color: #fff;
+    font-size: 4.8rem;
+    font-weight: 900;
+
+    line-height: 6rem;
+    margin-bottom: 28px;
+
+}
+.banner-text h1 span {
+    font-size: 5rem;
+    font-weight: 900;
+    font-style: italic;
+    line-height: 5rem;
+}
+.banner-text p {
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 1.25rem;
+    max-width: 60%;
+    margin-bottom: 28px;
+}
+
+.btn-1 {
+    background: rgba(230, 83, 60, 1);
+    border: 1px solid rgba(230, 83, 60, 1);
+    border-radius: 40px;
+    padding: 16px 40px;
+    font-size: 1.25rem;
+    font-weight: 600;
+    color: rgba(255, 255, 255, 1);
+}
+
+.banner-text .mobile{
+    display: none;
+}
+
+.banner-text .btn-1_1 {
+    background: transparent;
+    border: 1px solid white;
+    margin-left: 10px;
+    border-radius: 40px;
+    padding: 16px 40px;
+    font-size: 1.25rem;
+    font-weight: 600;
+    color: rgba(255, 255, 255, 1);
+}
+
+.banner-image {
+    position: relative;
+    color: #fff;
+    display: flex;
+}
+
+.img-text-card_2 {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    padding: 25px 20px 25px 25px;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 12px;
+    width: 220px;
+    background: rgba(48, 48, 48, 0.54);
+    backdrop-filter: blur(5px);
+    right: 400px;
+    top: 620px;
+}
+
+.red-circle {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background: #ff0000;
+    margin-right: 15px;
+}
+
+.img-text-card_2 h3 {
+    font-size: 1.5rem;
+    font-weight: 900;
+    padding-bottom: 0.5rem;
+}
+
+.img-text-card_2  p{
+    color: rgba(255, 255, 255, 0.65);
+    font-size: 1.25rem;
+    
+}
+
+.img-text-card_1 {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: right;
+    flex-direction: column;
+    padding: 25px 0px 25px 25px;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 12px;
+    width: 220px;
+    background: rgba(48, 48, 48, 0.54);
+    backdrop-filter: blur(5px);
+    right: 20px;
+    top: 350px;
+
+}
+.img-text-card_1 h3 {
+    font-size: 1.5rem;
+    font-weight: 900;
+    padding-bottom: 0.5rem;
+}
+
+.img-text-card_1  p{
+    color: rgba(255, 255, 255, 0.65);
+    font-size: 1rem;
+    
+}
+
+/* habit section styles */
+.habit-section{
+    width: 80%;
+    margin: 10px auto 100px;
+}
+.habit-cards-container{
+    display: flex;
+    justify-content: space-between;
+}
+.habit-section > h3 {
+    font-size: 3rem;
+    font-weight: 900;
+    color: #fff;
+    margin-bottom: 16px;
+    text-align: center;
+}
+.habit-section > p {
+    font-size: 14px;
+    font-weight: 400;
+    color:  rgba(255, 255, 255, 0.5);
+    max-width: 670px;
+    margin: 0 auto;
+    margin-bottom: 55px;
+    text-align: center;
+    letter-spacing: 0.3px;
+}
+.habit-card {
+    text-align: center;
+    width: 230px;
+}
+
+.habit-card img {
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+    border: 4px solid rgba(255, 255, 255, 0.1);
+    margin-bottom: 30px;
+}
+
+.habit-card h4 {
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: #fff;
+    margin-bottom: 6px;
+}
+
+.habit-card p {
+    font-size: 14px;
+    font-weight: 400;
+    color: rgba(255, 255, 255, 0.5);
+}
+
+/*Run section design */
+.run-section {
+    width: 80%;
+    background: rgba(34, 34, 34, 1);
+    border-radius: 18px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+   
+}
+.run-text{
+    max-width: 445px;
+    margin-left: 55px;
+
+}
+.run-section h2{
+    font-size: 48px;
+    font-weight: 900;
+    color: rgb(255, 255, 255); 
+    margin-bottom: 14px;
+}
+.run-section p{
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 14px;
+    font-weight: 400;
+    letter-spacing: 0.3px;
+    margin-bottom: 34px;
+
+}
+.run-section .run-img {
+    width: 370px;
+    height: 320px;
+    border-radius: 18px;
+    margin: 30px 32px;
+    background-image: url("../images/run.jpg");
+    background-position: 67% 32% ;
+    background-repeat: no-repeat;
+}
+
+
+@media screen and (max-width:576px){
+    .nav-bar{
+        width: 90%;
+    }
+    .nav-btn{
+        display: none;
+    }
+    .nav-bar i {
+        display: inline;
+
+    }
+    .nav-banner{
+        width: 90%;
+        flex-direction: column;
+    }
+    .banner-text .desktop{
+        display: none;
+    }
+    .banner-text .mobile{
+        display: inline;
+    }
+    .banner-text h1 {
+        font-size: 4rem;
+        line-height: 5rem;
+        margin-bottom: 20px;
+    
+    }
+    .banner-text h1 span {
+        font-size: 4rem;
+        padding-right: 1rem;
+    }
+    .banner-text p {
+
+        font-size: 1rem;
+        max-width: 95%;
+        margin-bottom: 25px;
+    }
+    .banner-text .btn-1_1 {
+        margin-left: 4px;
+        padding: 16px 20px;
+
+    }
+    .img-text-card_2 {
+        padding: 25px 0px 25px 25px;
+        left: 10px;
+        top: 1120px;
+    }
+
+    .img-text-card_1 {
+        padding: 25px 0px 25px 25px;
+        width: 190px;
+        right: 10px;
+        top: 900px;
+    
+    }
+    
+}
