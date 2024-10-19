@@ -249,7 +249,7 @@ header{
     width: 80%;
     background: rgba(34, 34, 34, 1);
     border-radius: 18px;
-    margin: 0 auto;
+    margin: 0 auto 80px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -284,6 +284,236 @@ header{
     background-repeat: no-repeat;
 }
 
+
+/* BMI form design */
+.BMI-form-section{
+    background: rgb(34, 34, 34);
+    margin-bottom: 90px;
+}
+.BMI-title{
+    max-width: 670px;
+    margin: 0 auto 90px;
+}
+.BMI-section h3{
+    font-size: 3rem;
+    font-weight: 900;
+    margin-bottom: 14px;
+}
+.BMI-section .BMI-title p{
+    font-size: 14px;
+    font-weight: 400;
+    letter-spacing: 0.3px;
+    color: rgba(255, 255, 255, 0.5);
+}
+.BMI-form{
+    width: 80%;
+    margin: 0 auto;
+    padding-top: 52px;
+    padding-bottom: 52px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.BMI-form .BMI-chart h4{
+    color: rgb(255, 255, 255);
+    font-size: 28px;
+    font-weight: 900;
+    margin-bottom: 52px;
+}
+
+
+.BMI-chart table {
+    font-size: 0.85rem;
+    font-weight: 400;
+    color: rgba(255, 255, 255, 0.5);
+    border-collapse: collapse;
+    text-align: left;
+}
+
+table td {
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    padding: 15px 18px;
+    
+}
+
+.BMI-chart thead td {
+    color: #fff;
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+.BMI-calculator h4{
+    color: rgb(255, 255, 255);
+    font-size: 28px;
+    font-weight: 900;
+    margin-bottom: 14px;
+}
+.BMI-calculator p{
+    font-size: 14px;
+    font-weight: 400;
+    letter-spacing: 0.3px;
+    color: rgba(255, 255, 255, 0.5);
+    margin-bottom: 35px;
+    max-width: 575px;
+}
+.calculate-form{
+    display: grid;
+    grid-template-columns: repeat(2, calc(50%-5px));
+    gap: 10px;
+    margin-bottom: 34px;
+
+
+}
+
+.input_1,
+.input_2,
+.input_3,
+.input_4,
+.input_5{
+    font-size: 1rem;
+    font-weight: 400;
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.1);
+    padding: 12px 0 12px 20px;
+    border-style: none;
+    color: rgba(255, 255, 255, 1);
+}
+.input_5{
+    grid-column: 1/span 2;
+}
+
+/* Meet section design */
+.Meet-title{
+    margin-bottom: 60px;
+}
+.Meet-section h3{
+    font-size: 3rem;
+    font-weight: 900;
+    margin-bottom: 14px;
+    text-align: center;
+}
+
+.Meet-title p{
+    font-size: 14px;
+    font-weight: 400;
+    letter-spacing: 0.3px;
+    color: rgba(255, 255, 255, 0.5);
+    text-align: center;
+}
+.Meet-title .for-desktop{
+    display: block;
+}
+
+/* Meet trainer section design */
+.meet-team-profile{
+    background: rgb(34, 34, 34);
+    max-width: 80%;
+    margin: 0 auto;
+    border-radius: 18px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding: 20px 0;
+    margin-bottom: 100px;
+}
+
+.meet-team-profile h4 {
+    font-size: 1rem;
+    font-weight: 900;
+    color: rgba(255, 255, 255, 1);
+    margin-bottom: 3px;
+    padding-left: 15px;
+}
+
+.meet-team-profile p {
+    font-size: 1rem;
+    font-weight: 400;
+    color: rgba(255, 255, 255, 0.5);
+    padding-left: 15px;
+    padding-bottom: 15px;
+}
+.meet-team-profile .profile-1{
+    background-image: url(images/trainer1.png);
+    background-repeat: no-repeat;
+    width: 330px;
+    height: 275px;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-start;
+    border-radius: 18px;
+
+}
+.meet-team-profile .profile-2{
+    background-image: url(images/trainer2.png);
+    background-repeat: no-repeat;
+    width: 330px;
+    height: 275px;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-start;
+    border-radius: 18px;
+
+}
+.meet-team-profile .profile-3{
+    background-image: url(images/trainer3.png);
+    background-repeat: no-repeat;
+    width: 330px;
+    height: 275px;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-start;
+    border-radius: 18px;
+
+}
+.meet-team-profile .profile-4{
+    background-image: url(images/trainer4.png);
+    background-repeat: no-repeat;
+    width: 330px;
+    height: 275px;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-start;
+    border-radius: 18px;
+
+}
+.meet-team-profile .profile-5{
+    background-image: url(images/trainer5.png);
+    background-repeat: no-repeat;
+    width: 330px;
+    height: 275px;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-start;
+    border-radius: 18px;
+
+}
+.meet-team-profile .profile-6{
+    background-image: url(images/trainer6.png);
+    background-repeat: no-repeat;
+    width: 330px;
+    height: 275px;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-start;
+    border-radius: 18px;
+
+}
 
 @media screen and (max-width:576px){
     .nav-bar{
@@ -339,6 +569,11 @@ header{
         right: 10px;
         top: 900px;
     
+    }
+
+    /* Meet our team section */
+    .Meet-title .for-desktop{
+        display: inline;
     }
     
 }
