@@ -581,65 +581,248 @@ hr{
     letter-spacing: 0.3px;
     text-align: center;
     }
-@media screen and (max-width:576px){
-    .nav-bar{
-        width: 90%;
+@media screen and (max-width:500px){
+    .nav-bar, .habit-section, .habit-cards-container, .run-section, .BMI-form, .meet-team-profile, .footer-container, .copyright{
+        max-width: 90%;
+    }
+    .nav-bar i {
+        display: inline;
     }
     .nav-btn{
         display: none;
     }
-    .nav-bar i {
-        display: inline;
-
-    }
-    .nav-banner{
-        width: 90%;
+    .nav-banner, .habit-cards-container, .run-section{
         flex-direction: column;
+        align-items: center;
     }
-    .banner-text .desktop{
-        display: none;
-    }
-    .banner-text .mobile{
-        display: inline;
-    }
+
+
     .banner-text h1 {
-        font-size: 4rem;
-        line-height: 5rem;
+        font-size: 3rem;
+        line-height: 3rem;
         margin-bottom: 20px;
     
     }
     .banner-text h1 span {
-        font-size: 4rem;
-        padding-right: 1rem;
+        font-size: 3rem;
+        line-height: 3rem;
     }
     .banner-text p {
-
-        font-size: 1rem;
-        max-width: 95%;
-        margin-bottom: 25px;
+        font-size: 0.80rem;
     }
+    .banner-text .desktop{
+        display: none;
+    }
+    .btn-1 {
+        padding: 12px 30px;
+        font-size: 1rem;
+    }
+    
+    .banner-text .mobile{
+        display:inline;
+    }
+    
     .banner-text .btn-1_1 {
-        margin-left: 4px;
-        padding: 16px 20px;
-
+        padding: 12px 30px;
+        font-size: 1rem;
     }
     .img-text-card_2 {
-        padding: 25px 0px 25px 25px;
-        left: 10px;
-        top: 1120px;
+        padding: 15px 15px ;
+        width: 150px;
+        left: 32px;
+        top: 800px;
+    }
+    
+    .red-circle {
+        width: 30px;
+        height: 30px;
+    }
+    
+    .img-text-card_2 h3 {
+        font-size: 1rem;
+    }
+    
+    .img-text-card_2  p{
+        font-size: .90rem;
+        
+    }
+    
+    .img-text-card_1 {
+        padding: 15px 15px ;
+        width: 150px;
+        right: 32px;
+        top: 576px;
+    }
+    .img-text-card_1 h3 {
+        font-size: 1rem;
+    }
+    
+    .img-text-card_1  p{
+        font-size: .90rem;
+        
+    }
+    /* habit section */
+
+    .habit-cards-container{
+        gap: 50px;
+    }
+    .habit-section > h3 {
+        font-size: 2rem;
+    }
+    .habit-section > p {
+        font-size: .80rem;
+    }
+    .habit-card img {
+        margin-bottom: 15px;
+    }
+    
+    .habit-card h4 {
+        font-size: 1rem;
+    }
+    
+    .habit-card p {
+        font-size: .80rem;
     }
 
-    .img-text-card_1 {
-        padding: 25px 0px 25px 25px;
-        width: 190px;
-        right: 10px;
-        top: 900px;
+    /* run section */
+    .run-text{
+        padding-top: 30px;
+        max-width: 290px;
+        margin: 0 auto;
+        padding-bottom: 35px;
+
     
     }
+    .run-section h2{
+        font-size: 2rem;
+        margin-bottom: 15px;
 
-    /* Meet our team section */
+    }
+    .run-section p{
+        text-align: justify;
+        font-size: .80rem;
+        margin-bottom: 24px;
+    
+    }
+    .run-img {
+        width: 90%;
+        background-size: cover;
+    }
+    .run-text .btn-for-mobile{
+        width: 100%;
+        margin-bottom: 30px;
+    }
+
+    /*BMI form */
+    .BMI-section h3{
+        font-size: 2rem;
+        /* padding-left: 20px; */
+        margin: 0 auto;
+        width: 90%;
+    }
+    .BMI-section .BMI-title p{
+        font-size: .80rem;
+        margin: 0 auto;
+        width: 90%;
+
+    }
+    .BMI-form{
+        flex-direction: column;
+        gap: 45px;
+        align-items:flex-start ;
+    
+    }
+    
+    .BMI-form .BMI-chart h4{
+        font-size: 1.5rem;
+        margin-bottom: 52px;
+    }
+    
+    
+    .BMI-chart table {
+        font-size: 0.80rem;
+    }
+    
+    .BMI-chart thead td {
+        font-size: .90rem;
+    }
+    
+    .BMI-calculator h4{
+        font-size: 1.5rem;
+        margin-bottom: 10px;
+    }
+    .BMI-calculator p{
+        font-size: .80rem;
+        margin-bottom: 30px;
+    }
+    .calculate-form{
+        margin-bottom: 30px;
+    }
+    
+    .input_1,
+    .input_2,
+    .input_3,
+    .input_4,
+    .input_5{
+        font-size: .90rem;
+        padding: 14px 0 14px 20px;
+    }
+    .btn-for-mobile2{
+        width: 60%;
+    }
+
+    /* Meet trainer section */
+    .Meet-section h3{
+        font-size: 2rem;
+        margin-bottom: 10px;
+    }
+    
+    .Meet-title p{
+        font-size: .80rem;
+    }
     .Meet-title .for-desktop{
         display: inline;
     }
+
+    /* Footer section */
+    .footer-container{
+        grid-template-columns: repeat(1, 1fr);
+        gap: 30px;
+    }
+    .Fitness h3{
+        font-size: 4rem;
+        font-weight: 800;
+    }
+    .Fitness p{
+        max-width: 315px;
+        color: rgba(255, 255, 255, 0.5);
+        font-size: .90rem;
+        font-weight: 400;
+        letter-spacing: 0.3px;
+    }
+    .footer-contact{
+        flex-direction: column;
+        gap: 30px;
+    }
+    .footer-service h3{
+        font-size: 1.9rem;
+        margin-bottom: 15px;
     
+    }
+    .footer-service li{
+        margin-bottom: 10px;
+    }
+    .footer-service a{
+       font-size: 1.1rem;
+    }
+    footer .copyright{
+        padding-bottom: 100px;
+    }
+    hr{
+       width: 90%;
+    
+    }
+    .copyright p{
+        font-size: 1rem;
+        }
 }
