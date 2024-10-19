@@ -279,7 +279,7 @@ header{
     height: 320px;
     border-radius: 18px;
     margin: 30px 32px;
-    background-image: url("../images/run.jpg");
+    background-image: url("images/run.jpg");
     background-position: 67% 32% ;
     background-repeat: no-repeat;
 }
