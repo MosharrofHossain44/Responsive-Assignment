@@ -515,6 +515,72 @@ table td {
 
 }
 
+/* Footer design */
+footer{
+   width: 100%;
+   background: rgba(255, 255, 255, 0.1); 
+   margin-bottom: 50px;
+}
+.footer-container{
+    max-width: 80%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    padding-top: 65px;
+    padding-bottom: 80px;
+}
+.Fitness h3{
+    font-size: 4.38rem;
+    font-weight: 800;
+    color: rgb(230, 83, 60);
+    font-style: italic;
+    margin-bottom: 20px;
+
+}
+.Fitness p{
+    max-width: 440px;
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 14px;
+    font-weight: 400;
+    letter-spacing: 0.3px;
+}
+.footer-contact{
+    display: flex;
+    justify-content: space-between;
+}
+.footer-service h3{
+    color: rgb(255, 255, 255);
+    font-size: 2rem;
+    font-weight: 700;
+    margin-bottom: 40px;
+
+}
+.footer-service li{
+    list-style: none;
+    margin-bottom: 15px;
+}
+.footer-service a{
+   text-decoration: none;
+   color: rgba(255, 255, 255, 0.5);
+   font-size: 1.2rem;
+}
+footer .copyright{
+    max-width: 80%;
+    margin: 0 auto;
+    padding-bottom: 35px;
+}
+hr{
+    color: rgba(255, 255, 255, 0.1);
+
+}
+.copyright p{
+    margin-top: 35px;
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 20px;
+    font-weight: 400;
+    letter-spacing: 0.3px;
+    text-align: center;
+    }
 @media screen and (max-width:576px){
     .nav-bar{
         width: 90%;
